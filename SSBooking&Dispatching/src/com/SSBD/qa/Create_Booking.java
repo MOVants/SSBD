@@ -18,7 +18,7 @@ public class Create_Booking {
 	  public void setUp() throws Exception {
 	    driver = new FirefoxDriver();
 	    driver.manage().window().maximize();
-	    baseUrl = "http://172.16.0.47:8080/";
+	    baseUrl = "/";
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
